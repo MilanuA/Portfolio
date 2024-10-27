@@ -512,7 +512,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			h3{
 				display: inline-block;
 				padding: 7px 15px;
-				font-size: 18px;
+				font-size: 40px;
 				text-transform: uppercase;
 				letter-spacing: 5px;
 				font-weight: bold;
@@ -617,7 +617,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .company{
 	display: block;
 	margin-bottom: 20px;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: normal;
 	color: lighten($brand-black, 75%);
 }
