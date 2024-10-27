@@ -270,3 +270,76 @@
 	generateTimelineItems(workExperience, true);
 	generateTimelineItems(education, false);
 }());
+
+const projects = [
+	{
+		name: "Antics",
+		image: "antics", 
+		type: "Unity | Gamejam",
+		url: "https://prodsomethingfishy.itch.io/antics"
+	},
+	{
+		name: "Harvest Grove",
+		image: "hg",
+		type: "Unity | Long term project",
+		url: "https://destirogames.itch.io/harvest-grove"
+	},
+	{
+		name: "Athena's gift",
+		image: "athenas",
+		type: "Unity | Gamejam",
+		url: "https://casblood18.itch.io/athenas-gift"
+	},
+	{
+		name: "Dreamscape",
+		image: "dreamscape",
+		type: "Unity | Gamejam",
+		url: "https://alexu16.itch.io/dreamscape"
+	},
+	{
+		name: "PStros",
+		image: "pstros",
+		type: "Unity | Android",
+		url: "https://alexu16.itch.io/pstros"
+	},
+	{
+		name: "Repair and resist",
+		image: "repair",
+		type: "Unity | Gamejam",
+		url: "https://livaneec6515.itch.io/repair-and-resist"
+	},
+	{
+		name: "Shadows under the bed",
+		image: "shadows",
+		type: "Unity | Gamejam",
+		url: "https://monkebusiness.itch.io/shadows-under-the-bed"
+	},
+	{
+		name: "Picnic friends",
+		image: "picnic",
+		type: "Unity | Gamejam",
+		url: "https://alexu16.itch.io/picnic-friends"
+	},
+	{
+		name: "Fall of Bjorn",
+		image: "bjorn",
+		type: "Unity | Gamejam",
+		url: "https://al-hussienx.itch.io/the-fall-of-bjorn"
+	},
+];
+
+const container = document.getElementById('projects-container');
+
+projects.forEach(project => {
+	const projectHTML = `
+		<div class="col-md-3 text-center col-padding animate-box">
+			<a href="${project.url}" class="work" style="background-image: url('images/projectsImages/${project.image}.png');">
+				<div class="desc">
+					<h3>${project.name}</h3>
+					<span>${project.type}</span>
+				</div>
+			</a>
+		</div>
+	`;
+	container.innerHTML += projectHTML;
+});

@@ -575,7 +575,7 @@ h1, h2, h3, h4, h5, h6, figure {
     top: 0; }
 
 .work {
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
@@ -632,7 +632,7 @@ h1, h2, h3, h4, h5, h6, figure {
       transform: translate3d(0, 0, 0); }
 
 #fh5co-started {
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
