@@ -146,46 +146,46 @@
 	});
 
 
-	const skills = [
-        { name: "C#", percent: 80 },
-        { name: "Unity", percent: 80 },
-        { name: "C++", percent: 35 },
-        { name: "Unreal", percent: 35 },
-        { name: "PHP", percent: 25 },
-        { name: "PL/SQL", percent: 30 },
-        { name: "React", percent: 20 },
-        { name: "HTML/CSS", percent: 40 },
-		{name: "Blender", percent: 25},
 
-        { name: "Git", percent: 100, type: "Tool" },
-        { name: "FMOD", percent: 100, type: "Tool" },
-        { name: "VSCode", percent: 100, type: "Tool" },
-        { name: "Trello, Plane", percent: 100, type: "Task Management" },
-	
-    ];
-
-    const skillsContainer = document.getElementById('skills-container');
-
-    skills.forEach(skill => {
-        const skillType = skill.type ? skill.type : '';
-		const showPercent = skill.type ? '' : skill.percent  + '%';
-
-        const skillElement = `
-            <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                <div class="chart" data-percent="${skill.percent}">
-                    <span><strong>${skill.name}</strong>${showPercent}${skillType}</span>
-                </div>
-            </div>
-        `;
-        skillsContainer.innerHTML += skillElement;
-    });
 
 }());
 
-
-;(function () {
+(function () {
 	'use strict';
 
+	const skills = [
+		{ name: "C#", percent: 80 },
+		{ name: "Unity", percent: 80 },
+		{ name: "C++", percent: 35 },
+		{ name: "Unreal", percent: 35 },
+		{ name: "PHP", percent: 25 },
+		{ name: "PL/SQL", percent: 30 },
+		{ name: "React", percent: 20 },
+		{ name: "HTML/CSS", percent: 40 },
+		{name: "Blender", percent: 25},
+
+		{ name: "Git", percent: 100, type: "Tool" },
+		{ name: "FMOD", percent: 100, type: "Tool" },
+		{ name: "VSCode", percent: 100, type: "Tool" },
+		{ name: "Trello, Plane", percent: 100, type: "Task Management" },
+	];
+
+	const skillsContainer = document.getElementById('skills-container');
+
+	skills.forEach(skill => {
+		const skillType = skill.type ? skill.type : '';
+		const showPercent = skill.type ? '' : skill.percent  + '%';
+
+		const skillElement = `
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+				<div class="chart" data-percent="${skill.percent}">
+					<span><strong>${skill.name}</strong>${showPercent}${skillType}</span>
+				</div>
+			</div>
+		`;
+		skillsContainer.innerHTML += skillElement;
+	});
+	
 	const Icons = {
 		WORK: 'icon-suitcase',
 		EDUCATION: 'icon-graduation-cap'
