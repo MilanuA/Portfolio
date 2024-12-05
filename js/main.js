@@ -279,6 +279,12 @@ const projects = [
 		url: "https://prodsomethingfishy.itch.io/antics"
 	},
 	{
+		name: "Tower defense",
+		image: "UE",
+		type: "Unreal | Prototype",
+		url: "https://github.com/MilanuA/Tower-Defense"
+	},
+	{
 		name: "Harvest Grove",
 		image: "hg",
 		type: "Unity | Long term project",
