@@ -220,13 +220,13 @@
 
 	const education = [
 		{
-			title: "Bachelor Degree",
+			title: "University",
 			institution: "Faculty of Informatics and Statistics VŠE Prague",
 			years: "2024 - now",
 			description: ""
 		},
 		{
-			title: "Graduation",
+			title: "High school - High school diploma",
 			institution: "Delta - Střední škola informatiky a ekonomie",
 			years: "2020-2024",
 			description: "C#, Cisco/Packet tracer, PHP, SQL, Android / Java, React / MUI / GraphQL "
