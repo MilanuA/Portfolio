@@ -234,7 +234,7 @@
 		{
 			title: "Unity developer",
 			company: "Liquid Digital Group",
-			years: "10-05-2022 - now",
+			years: "10-05-2022 - 31-12-2024",
 			description: "Small studio based in the USA, specializing in freelance programming services. With me, as the lead game programmer, we have been involved in fulfilling a variety of projects through Fiverr."
 		},
 		{
@@ -312,10 +312,10 @@
 
 const projects = [
 	{
-		name: "Antics",
-		image: "antics", 
-		type: "Unity | Gamejam",
-		url: "https://prodsomethingfishy.itch.io/antics"
+		name: "Morphed",
+		image: "morphed", 
+		type: "Unity | GDS Prague 2024 gamejam",
+		url: "https://aemit.itch.io/morphed"
 	},
 	{
 		name: "Tower defense",
@@ -324,10 +324,22 @@ const projects = [
 		url: "https://github.com/MilanuA/Tower-Defense"
 	},
 	{
+		name: "Fisher",
+		image: "fisher",
+		type: "Console | C++",
+		url: "https://github.com/MilanuA/Fisher-minigame"
+	},
+	{
 		name: "Harvest Grove",
 		image: "hg",
 		type: "Unity | Long term project",
 		url: "https://destirogames.itch.io/harvest-grove"
+	},
+	{
+		name: "Antics",
+		image: "antics", 
+		type: "Unity | Gamejam",
+		url: "https://prodsomethingfishy.itch.io/antics"
 	},
 	{
 		name: "Athena's gift",
