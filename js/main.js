@@ -312,6 +312,12 @@
 
 const projects = [
 	{
+		name : "Asteroids",
+		image: "asteroid",
+		type: "Raylib | C++",
+		url: "https://github.com/MilanuA/Space-game"
+	},
+	{
 		name: "Morphed",
 		image: "morphed", 
 		type: "Unity | GDS Prague 2024 gamejam",
@@ -320,7 +326,7 @@ const projects = [
 	{
 		name: "Tower defense",
 		image: "UE",
-		type: "Unreal | Prototype",
+		type: "Unreal | C++",
 		url: "https://github.com/MilanuA/Tower-Defense"
 	},
 	{
