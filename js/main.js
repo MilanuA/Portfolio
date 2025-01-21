@@ -237,7 +237,7 @@
 			projects.forEach(project => {
 				const projectElement = document.createElement('div');
 				projectElement.className = 'col-md-3 text-center col-padding animate-box project';
-				projectElement.setAttribute('data-tags', project.tags.join(' ')); // Add tags as a space-separated string
+				projectElement.setAttribute('data-tags', project.tags.join(' ')); 
 				projectElement.innerHTML = `
 					<a href="${project.url}" class="work" style="background-image: url('images/projectsImages/${project.image}.png');">
 						<div class="desc">
@@ -253,12 +253,11 @@
 	
 
 	document.getElementById("filter").addEventListener("change", function () {
-		const filter = this.value.toLowerCase(); // Normalize to lowercase for consistency
+		const filter = this.value.toLowerCase(); 
 		const projects = document.querySelectorAll(".project");
 	
 		projects.forEach((project) => {
-			const tags = project.getAttribute("data-tags").toLowerCase(); // Normalize for comparison
-	
+			const tags = project.getAttribute("data-tags").toLowerCase();
 			if (filter === "all" || tags.includes(filter)) {
 				project.classList.remove("hidden");
 			} else {
