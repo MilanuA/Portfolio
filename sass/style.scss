@@ -375,6 +375,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	.fh5co-heading{
 		h2{
 			color: $brand-white !important;
+			font-weight: bold;
 		}
 	}
 }
@@ -1276,6 +1277,33 @@ input[type="text"] {
 
 .animate-box {
 	.js & {
-		opacity: 0;
+		opacity: 1;
 	}
 }
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+  
+	.project {
+	  padding: 20px;
+	  background: white;
+	  border: 1px solid #ccc;
+	  border-radius: 8px;
+	  transition: all 0.3s;
+  
+	  &.hidden {
+		display: none; // Hide filtered-out projects
+	  }
+	}
+  }
+  
+  .filter-container {
+	margin-bottom: 20px;
+	select {
+	  padding: 5px;
+	  border-radius: 4px;
+	  border: 1px solid #ccc;
+	}
+  }
