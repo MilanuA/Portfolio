@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Unity developer",
+        "company": "Liquid Digital Group",
+        "years": "10-05-2022 - 31-12-2024",
+        "description": "Small studio based in the USA, specializing in freelance programming services. With me, as the lead game programmer, we have been involved in fulfilling a variety of projects through Fiverr."
+    },
+    {
+        "title": "Unreal developer - internship",
+        "company": "Incidental minds",
+        "years": "03-06-2024 - 30-08-2024",
+        "description": "Gained hands-on experience with both Blueprints and C++ while contributing to a real-world project in Unreal Engine, enhancing gameplay features and performance."
+    },
+    {
+        "title": "3D Modeler - Internship",
+        "company": "PWC Slovakia",
+        "years": "29-05-2023 - 23-06-2023",
+        "description": "Created detailed, office-based models for an internal project."
+    },
+    {
+        "title": "Web developer - Internship",
+        "company": "Unicorn",
+        "years": "16-05-2022 - 27-05-2022",
+        "description": "Developed a web calculator as the primary feature, then integrated an item database using an API, enabling efficient search and browsing through a user-friendly interface."
+    }
+]

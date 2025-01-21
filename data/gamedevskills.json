@@ -1,0 +1,8 @@
+[
+    { "name": "C#", "percent": 75 },
+    { "name": "Unity", "percent": 75 },
+    { "name": "C++", "percent": 30 },
+    { "name": "Unreal", "percent": 25 },
+    { "name": "Blender", "percent": 25 },
+    { "name": "FMOD", "percent": 25 }
+]
