@@ -3,5 +3,8 @@
 
     { "name": "VSCode", "percent": 100, "type": "Tool" },
     { "name": "Rider", "percent": 100, "type": "Tool" },
+    {"name": "CLion", "percent": 100, "type": "Tool"},
+
+    { "name": "Figma", "percent": 100, "type": "Tool" },
     { "name": "Trello, Plane", "percent": 100, "type": "Task Management" }
 ]

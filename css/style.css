@@ -266,6 +266,10 @@ h1, h2, h3, h4, h5, h6, figure {
   .fh5co-bg-dark .fh5co-heading h2 {
     color: #fff !important;
     font-weight: bold; }
+  .fh5co-bg-dark .fh5co-heading h3 {
+    color: #fff !important; }
+  .fh5co-bg-dark .fh5co-heading a {
+    color: #fff !important; }
 
 .info {
   margin: 0;
@@ -1081,7 +1085,7 @@ input[type="text"] {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease;
-  z-index: 9999;
+  z-index: 999999999;
   overflow-y: auto;
   padding: 20px; }
   .b_overlay.active {
