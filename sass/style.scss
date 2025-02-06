@@ -1,7 +1,9 @@
 $font-primary: 'Space Mono', Arial, serif;
 $font-secondary: 'Kaushan Script', cursive;
 
-
+/*
+sass scss/style.scss css/style.css
+*/
 
 // Overrides
 $grid-gutter-width: 40px !default; 
@@ -1307,3 +1309,58 @@ input[type="text"] {
 	  border: 1px solid #ccc;
 	}
   }
+  
+  .b_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 999999999;
+    overflow-y: auto;
+    padding: 20px; 
+
+    &.active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .overlay-content {
+        background: #fff;
+        padding: 20px;
+        width: 80%;
+        max-width: 800px;
+        border-radius: 8px;
+        position: relative;
+        box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+        overflow-y: auto;
+        max-height: 90vh;
+    }
+
+    #close-overlay {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        border: none;
+        background: red;
+        color: white;
+        padding: 5px 10px;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+
+    img {
+        width: 100%; 
+        max-width: 600px; 
+        display: block;
+        margin: 10px auto; 
+    }
+}

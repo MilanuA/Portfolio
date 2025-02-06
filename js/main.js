@@ -229,28 +229,57 @@
             });
         });
     };
+	
 	const renderProjects = () => {
 		loadJSON('data/projects.json', (err, projects) => {
 			if (err) return console.error(err);
 			const container = document.getElementById('projects-container');
+			const overlay = document.getElementById('bot-overlay');
+			const closeBtn = document.getElementById('close-overlay');
 	
 			projects.forEach(project => {
 				const projectElement = document.createElement('div');
 				projectElement.className = 'col-md-3 text-center col-padding animate-box project';
-				projectElement.setAttribute('data-tags', project.tags.join(' ')); 
-				projectElement.innerHTML = `
-					<a href="${project.url}" class="work" style="background-image: url('images/projectsImages/${project.image}.png');">
-						<div class="desc">
-							<h3>${project.name}</h3>
-							<span>${project.type}</span>
-						</div>
-					</a>
-				`;
+				projectElement.setAttribute('data-tags', project.tags.join(' '));
+	
+				if (project.name === "Discord Bot") {
+					projectElement.innerHTML = `
+						<a href="#" class="work" style="background-image: url('images/projectsImages/${project.image}.png');">
+							<div class="desc">
+								<h3>${project.name}</h3>
+								<span>${project.type}</span>
+							</div>
+						</a>
+					`;
+					projectElement.addEventListener('click', (e) => {
+						e.preventDefault(); 
+						overlay.classList.add('active');
+					});
+				} else {
+					projectElement.innerHTML = `
+						<a href="${project.url}" class="work" style="background-image: url('images/projectsImages/${project.image}.png');">
+							<div class="desc">
+								<h3>${project.name}</h3>
+								<span>${project.type}</span>
+							</div>
+						</a>
+					`;
+				}
+	
 				container.appendChild(projectElement);
+			});
+	
+			closeBtn.addEventListener('click', () => {
+				overlay.classList.remove('active');
+			});
+	
+			overlay.addEventListener('click', (e) => {
+				if (e.target === overlay) {
+					overlay.classList.remove('active');
+				}
 			});
 		});
 	};
-	
 
 	document.getElementById("filter").addEventListener("change", function () {
 		const filter = this.value.toLowerCase(); 
@@ -264,9 +293,7 @@
 				project.classList.add("hidden");
 			}
 		});
-	});
-	
-	  
+	});  
 
     const init = () => {
         renderSkills();

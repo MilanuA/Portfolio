@@ -35,6 +35,12 @@
         "tags": ["C#", "Unity"]
     },
     {
+        "name": "Discord Bot",
+        "image": "discord_bot",
+        "type": " Other | Javascript",
+        "tags": ["Javascript", "Other"]
+    },
+    {
         "name": "Antics",
         "image": "antics",
         "type": "Unity | Gamejam",
@@ -90,4 +96,5 @@
         "url": "https://al-hussienx.itch.io/the-fall-of-bjorn",
         "tags": ["C#", "Unity"]
     }
+
 ]

@@ -182,6 +182,7 @@
 						<option value="c++">C++</option>
 						<option value="unity">Unity</option>
 						<option value="unreal">Unreal</option>
+						<option value="other">Other</option>
 					</select>
 				  </div>
 			</div>
@@ -189,7 +190,48 @@
 			</div>
 		</div>
 	</div>	
-	
+
+	<!-- DISCORD BOT  -->
+	<div id="bot-overlay" class="b_overlay">
+		<div class="overlay-content">
+			<button id="close-overlay">X</button>
+			<h1><strong>Discord Bot</strong></h1>
+			<p>I built a custom Discord bot using <strong>JavaScript</strong> and the <strong>Discord API</strong> for my Discord server. 
+				The bot is hosted on <strong>Cloudflare Workers</strong>.
+			</p>
+			<hr>
+			<h3><strong>Features & Commands:</strong></h3>
+
+			<h4>Weather update for the specified city:</h4>
+			<p>- Get real-time weather information for any city </br>
+			- Data about the weather are taken from <a href="https://www.weatherapi.com/" target="_blank">WeatherAPI</a>
+			</p>
+			<img src="images/bot/weather_command.png" alt="discord bot preview" class="img-fluid" style="width: auto; height: auto;"/>
+			<img src="images/bot/brno.png" alt="discord bot preview" class="img-fluid" style="width: auto; height: auto;"/>
+			<hr>
+
+			<h4>Ping Pong minigame:</h4>
+			<img src="images/bot/pong_command.png" alt="discord bot preview" class="img-fluid" style="width: auto; height: auto;"/>
+
+			<hr>
+
+			<h4>Trivia game:</h4>
+			<img src="images/bot/trivia_command.png" alt="discord bot preview" class="img-fluid" style="width: auto; height: auto;"/>
+
+			<hr>
+
+			<h4>Random dog picture:</h4>
+			<img src="images/bot/random_dog_command.png" alt="discord bot preview" class="img-fluid" style="width: auto; height: auto;"/>
+
+			<hr>
+
+			<h4>Daily user ping:</h4>
+			<p>- Automatically pings a specific user every day using <strong>Cloudflare Scheduled Workers.</strong></p>
+
+			<img src="images/bot/daily_ping.png" alt="discord bot preview" class="img-fluid" style="width: auto; height: auto;"/>
+		</div>
+	</div>
+
 	<div id="fh5co-footer" >
 		<div class="container">
 			<div class="row">
@@ -219,8 +261,7 @@
 	<script src="js/jquery.easypiechart.min.js"></script>
 	
 	<!-- Main -->
-	<script src="js/main.js"></script>
-
+	<script src="js/main.js"></script>	
 	</body>
 </html>
 
