@@ -1,100 +1,29 @@
 [
     {
-        "name": "Asteroids",
-        "image": "asteroid",
+        "title": "Asteroids",
+        "cover_url": "images/projectsImages/asteroid.png",
         "type": "Raylib | C++",
         "url": "https://github.com/MilanuA/Space-game",
         "tags": ["C++"]
     },
     {
-        "name": "Morphed",
-        "image": "morphed",
-        "type": "Unity | GDS Prague 2024 gamejam",
-        "url": "https://aemit.itch.io/morphed",
-        "tags": ["C#", "Unity"]
-    },
-    {
-        "name": "Tower defense",
-        "image": "UE",
+        "title": "Tower defense",
+        "cover_url": "images/projectsImages/UE.png",
         "type": "Unreal | C++",
         "url": "https://github.com/MilanuA/Tower-Defense",
         "tags": ["Unreal", "C++"]
     },
     {
-        "name": "Fisher",
-        "image": "fisher",
+        "title": "Fisher",
+        "cover_url": "images/projectsImages/fisher.png",
         "type": "Console | C++",
         "url": "https://github.com/MilanuA/Fisher-minigame",
         "tags": [ "C++"]
     },
     {
-        "name": "Harvest Grove",
-        "image": "hg",
-        "type": "Unity | Long term project",
-        "url": "https://destirogames.itch.io/harvest-grove",
-        "tags": ["C#", "Unity"]
-    },
-    {
-        "name": "Discord Bot",
-        "image": "discord_bot",
+        "title": "Discord Bot",
+        "cover_url": "images/projectsImages/discord_bot.png",
         "type": " Other | Javascript",
         "tags": ["Javascript", "Other"]
-    },
-    {
-        "name": "Antics",
-        "image": "antics",
-        "type": "Unity | Gamejam",
-        "url": "https://prodsomethingfishy.itch.io/antics",
-        "tags": ["C#", "Unity"]
-    },
-    {
-        "name": "Athena's gift",
-        "image": "athenas",
-        "type": "Unity | Gamejam",
-        "url": "https://casblood18.itch.io/athenas-gift",
-        "tags": ["C#", "Unity"]
-    },
-    {
-        "name": "Dreamscape",
-        "image": "dreamscape",
-        "type": "Unity | Gamejam",
-        "url": "https://alexu16.itch.io/dreamscape",
-        "tags": ["C#", "Unity"]
-    },
-    {
-        "name": "PStros",
-        "image": "pstros",
-        "type": "Unity | Android",
-        "url": "https://alexu16.itch.io/pstros",
-        "tags": ["C#", "Unity"]
-    },
-    {
-        "name": "Repair and resist",
-        "image": "repair",
-        "type": "Unity | Gamejam",
-        "url": "https://livaneec6515.itch.io/repair-and-resist",
-        "tags": ["C#", "Unity"]
-    },
-    {
-        "name": "Shadows under the bed",
-        "image": "shadows",
-        "type": "Unity | Gamejam",
-        "url": "https://monkebusiness.itch.io/shadows-under-the-bed",
-        "tags": ["C#", "Unity"]
-    },
-    {
-        "name": "Picnic friends",
-        "image": "picnic",
-        "type": "Unity | Gamejam",
-        "url": "https://alexu16.itch.io/picnic-friends",
-        "tags": ["C#", "Unity"]
-    },
-    {
-        "name": "Fall of Bjorn",
-        "image": "bjorn",
-        "type": "Unity | Gamejam",
-        "url": "https://al-hussienx.itch.io/the-fall-of-bjorn",
-        "tags": ["C#", "Unity"]
     }
-
 ]

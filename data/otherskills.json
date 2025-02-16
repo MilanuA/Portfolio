@@ -3,6 +3,7 @@
     { "name": "PL/SQL", "percent": 20 },
     { "name": "React", "percent": 15 },
     { "name": "HTML/CSS", "percent": 40 },
+    { "name": "Node.js", "percent": 15 },
     { "name": "MySQL", "percent": 15 },
     { "name": "MongoDB", "percent": 15 }
 ]
