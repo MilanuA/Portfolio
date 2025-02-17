@@ -1,7 +1,7 @@
 import { renderProjects } from "./methods/renderProjects.js";
 import { renderSkills } from "./methods/renderSkills.js";
 import { renderTimeline } from "./methods/renderTimeline.js";
-
+import { renderPublicRepos } from "./methods/renderOpenRepos.js";
 ;(function () {
 	
 	'use strict';
@@ -132,6 +132,7 @@ import { renderTimeline } from "./methods/renderTimeline.js";
 		renderSkills();
         renderTimeline();
 		renderProjects();
+		renderPublicRepos();
     };
 
     window.addEventListener('DOMContentLoaded', init);

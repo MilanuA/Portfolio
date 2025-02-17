@@ -2,7 +2,7 @@ $font-primary: 'Space Mono', Arial, serif;
 $font-secondary: 'Kaushan Script', cursive;
 
 /*
-sass scss/style.scss css/style.css
+sass sass/style.scss css/style.css
 */
 
 // Overrides
@@ -1370,3 +1370,32 @@ input[type="text"] {
         margin: 10px auto; 
     }
 }
+
+#public-repos {
+	li {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px;
+		border-bottom: 1px solid rgb(255, 255, 255);
+  
+		font-family: Arial, sans-serif;
+		color: white;
+	
+		a {
+		  text-decoration: none;
+		  font-weight: bold;
+		  color: #0e008d; 
+	
+		  &:hover {
+			color: #008cff; 
+		  }
+		}
+	
+		span {
+		  font-size: 18px;
+		  color: rgb(255, 255, 255);
+		}
+	  }	
+  }
+  
