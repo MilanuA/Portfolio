@@ -1,6 +1,6 @@
 export const renderProjects = async () => {
     try {
-      const serverResponse = await fetch('http://localhost:3000/games');
+      const serverResponse = await fetch('https://portfolio-api-nine-delta.vercel.app/games');
       const serverData = await serverResponse.json();
       
       if (!Array.isArray(serverData)) {
