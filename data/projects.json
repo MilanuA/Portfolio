@@ -21,6 +21,13 @@
         "tags": [ "C++"]
     },
     {
+        "title": "API",
+        "cover_url": "images/projectsImages/databaseSchema.png",
+        "type": "C# | Backend",
+        "url": "https://github.com/MilanuA/API",
+        "tags": ["C#"]
+    },
+    {
         "title": "Discord Bot",
         "cover_url": "images/projectsImages/discord_bot.png",
         "type": " Other | Javascript",
